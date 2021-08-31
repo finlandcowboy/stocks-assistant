@@ -32,6 +32,6 @@ def delete_stock(chat_id, stock):
         if d['stock'] == stock:
             continue
         
-        f.write(f'{ d['price']} {d['price']} {d['date']}')
+        f.write(f'{d['price']} {d['price']} {d['date']}')
 
 
